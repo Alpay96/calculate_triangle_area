@@ -12,7 +12,7 @@ public class Main {
 		System.out.print("Enter the length for the 1. side. : ");
 		a = scan.nextInt();
 
-		System.out.print("Enter the length for the 2. side.z : ");
+		System.out.print("Enter the length for the 2. side. : ");
 		b = scan.nextInt();
 
 		System.out.print("Enter the length for the 3. side. : ");
@@ -24,5 +24,4 @@ public class Main {
 		double area = Math.sqrt(u * (u - a) * (u - b) * (u - c));
 		System.out.print("Area : " + area);
 	}
-
 }
